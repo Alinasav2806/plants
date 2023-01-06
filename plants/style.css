@@ -92,8 +92,37 @@ h2 {
 
 .service {
     background-color: #EDF2EC;
-    margin-top: 60px;
-    margin-bottom: 60px;
+}
+
+.service-info {
+    display: flex;
+}
+
+.service h2 {
+    flex: 1;
+    color: #499A18;
+    margin: 20px;
+}
+
+.service-buttons {
+    display: flex;
+    flex: 2;
+    align-items: center;
+}
+
+.service-buttons button {
+    border: 1px solid #E06733; 
+     border-radius: 3px ;
+    margin: 50px;
+    padding: 5px 20px;
+    font-size: 10px;
+    color: #E06733;
+   
+}
+
+.service-item{
+    display: grid;
+  justify-items: center;
 }
 
 .prices {
