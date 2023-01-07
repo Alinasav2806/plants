@@ -1,12 +1,11 @@
+
 body {
-    margin: 0 108px;
+    padding: 0px 109px 0px 109px; 
+    
 }
 
 figure {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
+    margin: 0px;
 }
 
 header {
@@ -30,17 +29,27 @@ header {
 }
 
 .logo-text {
+    font-size: 16px;
 
 }
 
-.welcome-photo{
+/* .welcome-photo{
     height: 350px;
     width: 350px;
-}
+}  */
 
-.menu {
+.menu a{
     font-size: 13px;
     margin-right: 25px;
+    color: #000000; 
+    text-decoration: none;
+}
+
+.menu a:visited {
+    color: #000000; 
+   } 
+.menu a:hover {
+    color: #E06733; 
 }
 
 .menu li {
@@ -50,12 +59,15 @@ header {
 
 .welcome {
     background-color: #EDF2EC;
-    text-align: right;
+    /* text-align: right; */
     display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px; 
 }
 
 .welcome-photo{
-    width: 50%;
+    width: 60%;
+    object-fit: contain;
 }
 
 .welcome-info {
@@ -64,6 +76,11 @@ header {
     margin-top: 50px;
     margin-bottom: 50px;
     margin-right: 25px;
+    font-family: 'Inter';
+   
+}
+.welcome-info p {
+    font-size: 20px;
 }
 
 .welcome h1 {
@@ -72,11 +89,13 @@ header {
     font-weight: 700;
     font-size: 29.99px;
     line-height: 50px;
+    font-size: 45px;
 }
 
 .button {
     border: 2px solid #E06733;
     border-radius: 10px;
+
 
 }
 
@@ -86,6 +105,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px; 
     
 }
 
@@ -97,6 +118,7 @@ header {
 .about-foto{
     height: 450px;
     width: 50%;
+    object-fit: contain;
 }
 
 h2 {
@@ -105,6 +127,9 @@ h2 {
 
 .service {
     background-color: #EDF2EC;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px; 
 }
 
 .service-info {
@@ -149,11 +174,77 @@ h2 {
 .prices {
     margin-top: 60px;
     margin-bottom: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px; 
+}
+
+.prices-text {
+    display: flex;
+    justify-items: start;
+}
+
+/* .bt-4{
+    display: flex; */
+
+.button-prices  {
+    border: 1px solid #EDF2EC;
+    height: 50px;
+    width: 250px;
+    border-radius: 3px;
+    border-bottom: 149px;
+}  
+
+
+
+.tin-tack1 {
+    border: #EDF2EC;
+    background-color: #EDF2EC;
+    border-radius:5px; 
+    font-size: 20px;
+    margin: 10px;
+}
+
+.tin-tack1 img{
+    height: 20px;
+    width: 20px;
+}
+
+.tin-tack2 img{
+    height: 20px;
+    width: 20px;
+}
+
+.tin-tack2 {
+    border: #EDF2EC;
+    background-color: #EDF2EC;
+    border-radius:5px; 
+    font-size: 20px;
+    margin: 10px;
+}
+
+.tin-tack3 img{
+    height: 20px;
+    width: 20px;
+}
+
+.tin-tack3 {
+    border: #EDF2EC;
+    background-color: #EDF2EC;
+    border-radius:5px; 
+    font-size: 20px;
+    margin: 10px;
 }
 
 .contacts {
     background-color: #EDF2EC;
     margin-top: 60px;
     margin-bottom: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px; 
 }
+.contact-us {
+    text-align: center;
+    color: #499A18;
+}
+
 
