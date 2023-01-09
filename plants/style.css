@@ -75,13 +75,12 @@ header {
 }
 
 .welcome-info {
+    font-family: 'Inter', sans-serif;
     width: 50%;
     margin-left: 62px;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-right: 25px;
-    font-family: 'Inter';
-   
 }
 .welcome-info p {
     font-size: 20px;
@@ -94,13 +93,13 @@ header {
     font-size: 29.99px;
     line-height: 50px;
     font-size: 45px;
+    font-family: 'Inter', sans-serif;
 }
 
 .button {
     border: 2px solid #E06733;
     border-radius: 10px;
-
-
+    font-family: 'Inter', sans-serif;
 }
 
 .about {
@@ -113,6 +112,7 @@ header {
     padding-bottom: 100px; 
     padding-left: 50px;
     padding-right: 50px;
+    
 }
 
 
@@ -128,6 +128,11 @@ header {
     object-fit: contain;
 }
 
+.about-info h2{
+    font-family: 'Inika', serif;
+    color: #499A18;
+}
+
 h2 {
     font-size: 40px;
 }
@@ -139,6 +144,7 @@ h2 {
     padding-bottom: 100px; 
     padding-left: 50px;
     padding-right: 50px;
+    
 }
 
 .service-info {
@@ -149,12 +155,14 @@ h2 {
     flex: 1;
     color: #499A18;
     margin: 20px;
+    font-family: 'Inika', serif;
 }
 
 .service-buttons {
     display: flex;
     flex: 2;
     align-items: center;
+    font-family: 'Inika', serif;
 }
 
 .service-buttons button {
@@ -164,11 +172,22 @@ h2 {
     padding: 5px 20px;
     font-size: 10px;
     color: #E06733;
+    font-family: 'Inika', serif;
 }
 
 .service-items {
     display: flex;
     flex-wrap: wrap;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.service-items strong {
+    color: #E06733;
+}
+
+.service-items p {
+    color: #717171;
 }
 
 .service-item {
@@ -188,6 +207,7 @@ h2 {
     justify-content: space-between;
     padding-left: 50px;
     padding-right: 50px;
+    font-family: 'Inter', sans-serif;
 }
 
 
@@ -206,6 +226,7 @@ h2 {
     border-radius: 3px;
     border-bottom: 149px;
     padding-top: 30px;
+    font-family: 'Inter', sans-serif;
 }  
 
 
@@ -216,6 +237,7 @@ h2 {
     border-radius:5px; 
     font-size: 20px;
     margin: 10px;
+    /* text-align: right; */
 }
 
 .tin-tack1 img{
@@ -269,10 +291,17 @@ h2 {
     height: 550px;
     padding-left: 50px;
     padding-right: 50px;
+    font-family: 'Inika', serif;
 }
 .contact-us {
     text-align: center;
     color: #499A18;
+}
+
+.social-essence a{
+    /* padding: 60px; */
+    margin: 10px;
+    text-align: right;
 }
 
 
