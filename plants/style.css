@@ -1,7 +1,9 @@
 
 body {
-    padding: 0px 109px 0px 109px; 
-    
+    /* padding: 0px 109px 0px 109px;  */
+    width: 1440px;
+    margin: 0 auto;
+    margin-right: 0px;
 }
 
 figure {
@@ -63,6 +65,8 @@ header {
     display: flex;
     padding-top: 100px;
     padding-bottom: 100px; 
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .welcome-photo{
@@ -107,8 +111,11 @@ header {
     align-items: center;
     padding-top: 100px;
     padding-bottom: 100px; 
-    
+    padding-left: 50px;
+    padding-right: 50px;
 }
+
+
 
 .about-info{
     font-size: 15px;
@@ -127,9 +134,11 @@ h2 {
 
 .service {
     background-color: #EDF2EC;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     padding-top: 100px;
     padding-bottom: 100px; 
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .service-info {
@@ -171,16 +180,21 @@ h2 {
 }
 
 .prices {
-    margin-top: 60px;
-    margin-bottom: 60px;
-    padding-top: 100px;
-    padding-bottom: 100px; 
+    /* margin-top: 60px;
+    margin-bottom: 60px; */
+    /* padding-top: 100px;
+    padding-bottom: 100px;  */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
+
 .prices-text {
-    display: flex;
-    justify-items: start;
-}
+    /* margin-top: 40px;
+    margin-left: 109px; */
+   }
 
 /* .bt-4{
     display: flex; */
@@ -191,6 +205,7 @@ h2 {
     width: 250px;
     border-radius: 3px;
     border-bottom: 149px;
+    padding-top: 30px;
 }  
 
 
@@ -234,12 +249,26 @@ h2 {
     margin: 10px;
 }
 
+.women {
+    text-align: left;
+    /* padding-left: 109px; */
+    width: 400px;
+    height: 496.99px;
+    /* left: 109px;
+    top: 53px; */
+
+}
+
 .contacts {
     background-color: #EDF2EC;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    /* margin-top: 60px;
+    margin-bottom: 60px; */
     padding-top: 100px;
     padding-bottom: 100px; 
+    width: 1440px;
+    height: 550px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .contact-us {
     text-align: center;
